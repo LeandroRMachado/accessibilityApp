@@ -6,5 +6,5 @@ export const MATCH = {
   visitor_name: 'New Castle',
   visitor_logo: require('../assets/newcastle.png'),
   league_logo: require('../assets/league.png'),
-  score: '3 a 0',
+  score: '1 a 2',
 };

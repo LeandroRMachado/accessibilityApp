@@ -4,7 +4,10 @@ import { MATCH } from '../../utils/match';
 
 export function MatchNow() {
   return (
-    <Container>
+    <Container
+      accessible
+      accessibilityLabel={`Neste momento, estão jogando ${MATCH.host_name} contra ${MATCH.visitor_name}. O placar agora é ${MATCH.score}.`}
+    >
       <Title>{MATCH.league}</Title>
       <Turn>{MATCH.turn}</Turn>
 

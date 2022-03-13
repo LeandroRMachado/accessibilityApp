@@ -10,11 +10,16 @@ export function Header() {
     <Container>
       <Avatar
         source={{ uri: 'https://github.com/LeandroRMachado.png' }}
+        accessible
+        accessibilityLabel='Imagem de perfil do usuário'
       />
 
       <Logo source={logoImg} />
 
-      <TouchableOpacity>
+      <TouchableOpacity
+      accessible
+      accessibilityLabel='Sair da aplicação'
+      >
         <FontAwesome name="power-off" size={24} color="#595859" />
       </TouchableOpacity>
     </Container>
